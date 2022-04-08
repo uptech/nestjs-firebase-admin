@@ -1,3 +1,3 @@
-import * as admin from 'firebase-admin';
+import * as admin from "firebase-admin";
 
-export type FirebaseAdminSDK = admin.app.App;
+export type FirebaseAdmin = admin.app.App;

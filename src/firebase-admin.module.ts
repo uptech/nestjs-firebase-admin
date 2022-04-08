@@ -1,10 +1,10 @@
-import { Global, Module, DynamicModule } from "@nestjs/common";
-import { FirebaseAdminModuleAsyncOptions } from "./firebase-admin.interface";
-import {
-  FIREBASE_ADMIN_MODULE_OPTIONS,
-  FIREBASE_ADMIN_INJECT,
-} from "./firebase-admin.constant";
+import { DynamicModule, Global, Module } from "@nestjs/common";
 import * as admin from "firebase-admin";
+import {
+  FIREBASE_ADMIN_INJECT,
+  FIREBASE_ADMIN_MODULE_OPTIONS,
+} from "./firebase-admin.constant";
+import { FirebaseAdminModuleAsyncOptions } from "./firebase-admin.interface";
 
 @Global()
 @Module({})

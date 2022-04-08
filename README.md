@@ -17,14 +17,14 @@
 # Installation
 
 ```bash
-npm install @tfarras/nestjs-firebase-admin
+npm install @uptechworks/nestjs-firebase-admin
 ```
 
 ## Import module
 
 ```typescript
 import { Module } from '@nestjs/common';
-import { FirebaseAdminModule } from '@tfarras/nestjs-firebase-admin'
+import { FirebaseAdminModule } from '@uptechworks/nestjs-firebase-admin'
 import * as admin from 'firebase-admin'
  
 @Module({
@@ -45,7 +45,7 @@ export class AppModule {}
 
 ```typescript
 import { Injectable, Inject } from '@nestjs/common';
-import { FIREBASE_ADMIN_INJECT, FirebaseAdminSDK } from '@tfarras/nestjs-firebase-admin';
+import { FIREBASE_ADMIN_INJECT, FirebaseAdminSDK } from '@uptechworks/nestjs-firebase-admin';
 
 @Injectable()
 export class AppService {
@@ -58,3 +58,5 @@ export class AppService {
   }
 }
 ```
+
+Originally based on https://github.com/tfarras/nestjs-firebase-admin
