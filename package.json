@@ -47,7 +47,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "firebase-admin": "^10.0.2"
+    "firebase-admin": "^11.4.1"
   },
   "devDependencies": {
     "@nestjs/cli": "^8.2.1",
