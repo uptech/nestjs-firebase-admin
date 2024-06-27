@@ -50,9 +50,9 @@ let FirebaseAdminModule = FirebaseAdminModule_1 = class FirebaseAdminModule {
         };
     }
 };
-FirebaseAdminModule = FirebaseAdminModule_1 = __decorate([
+exports.FirebaseAdminModule = FirebaseAdminModule;
+exports.FirebaseAdminModule = FirebaseAdminModule = FirebaseAdminModule_1 = __decorate([
     (0, common_1.Global)(),
     (0, common_1.Module)({})
 ], FirebaseAdminModule);
-exports.FirebaseAdminModule = FirebaseAdminModule;
 //# sourceMappingURL=firebase-admin.module.js.map

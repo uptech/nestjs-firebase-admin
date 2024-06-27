@@ -1,2 +1,2 @@
 import * as admin from "firebase-admin";
-export declare type FirebaseAdmin = admin.app.App;
+export type FirebaseAdmin = admin.app.App;
